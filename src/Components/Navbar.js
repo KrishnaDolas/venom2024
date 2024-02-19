@@ -2,8 +2,11 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 function Navbar() {
+  const divstyle = {
+    fontFamily: "'Montserrat', sans-serif",
+  };
     return ( 
-        <nav className="navbar navbar-expand-lg bg-body-tertiary bg-transparent ">
+        <nav className="navbar navbar-expand-lg bg-body-tertiary bg-transparent " style={divstyle}>
   <div className="container-fluid bg-transparent">
     <a className="navbar-brand" href="#">VENOM</a>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

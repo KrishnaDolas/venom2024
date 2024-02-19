@@ -9,6 +9,10 @@ import GitHub from '@mui/icons-material/GitHub';
 
 function Home() {
 
+    const divstyle = {
+        fontFamily: "'Montserrat', sans-serif",
+      };
+
     const [happyClients, setHappyClients] = useState(0);
     const [projects, setProjects] = useState(0);
     const [liveProjects, setLiveProjects] = useState(0);
@@ -36,9 +40,16 @@ function Home() {
 
     return (
         <>
+        <style>
+        {`
+          @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+          /* Additional styles go here */
+        `}
+      </style>
+      
             <div>
                 <Homecarousal />
-                <div className="container-fluid overflow-hidden text-Left vh-60">
+                <div className="container-fluid overflow-hidden text-Left vh-60" style={divstyle}>
                     <div className="row gx-5 d-flex align-items-center justify-content-center">
                         <div className="col">
                             <iframe width="560" height="315" src="https://www.youtube.com/embed/AmHEfTSBXiY?si=xGvQqfymWuO-zs9t" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -70,7 +81,7 @@ function Home() {
                     </div>
                 </div>
 
-                <div className="container text-Left align-items-center">
+                <div className="container text-Left align-items-center" style={divstyle}>
                     <h3>Core Coding</h3><br/>
 
                     <div className="row border-bottom">
@@ -111,7 +122,7 @@ function Home() {
 
                     </div>
 
-                    <div className="container text-Left align-items-center">
+                    <div className="container text-Left align-items-center" style={divstyle}>
                     <h3>Wordpress</h3><br/>
 
                     <div className="row border-bottom">
@@ -132,7 +143,7 @@ function Home() {
                         </div>
                     </div>
                         
-                    <div className="row">
+                    <div className="row" style={divstyle}>
                         <div className="col border-end">
                         <br/><h3 style={{ fontSize: '2em', color: '#20b38e' }}>04</h3><br/>
                         <h3>Contact Form 7</h3><br/>
@@ -187,7 +198,7 @@ function Home() {
                         </div><br/><br/>
                     </div><br/><br/>
 
-                    <div class="container text-center">
+                    <div class="container text-center" style={divstyle}>
                     <div class="row">
                         <h1 style={{ color: '#20b38e' }}>Services</h1><br/><br/><br/><br/>
                         <div class="col">

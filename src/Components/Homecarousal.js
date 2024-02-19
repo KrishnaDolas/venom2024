@@ -17,7 +17,7 @@ function Homecarousal() {
         `}
       </style>
 
-      <div className="container-fluid overflow-hidden text-center vh-60">
+      <div className="container-fluid overflow-hidden text-center vh-60" style={divstyle}>
         <div className="row gx-5 d-flex align-items-center justify-content-center">
           <div className="col">
             <div className="p-3" style={divstyle}>
