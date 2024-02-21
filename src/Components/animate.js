@@ -7,7 +7,7 @@ const tl = gsap.timeline();
 // Preloader Animation
 export const preLoaderAnim = () => {
   tl.to("body", {
-    duration: 0.1,
+    duration: 0,
     css: { overflowY: "hidden" },
     ease: "power3.inOut",
   })
@@ -21,7 +21,7 @@ export const preLoaderAnim = () => {
       ease: "Power3.easeOut",
     })
     .from(".texts-container span", {
-      duration: 1.5,
+      duration: 0.01,
       delay: 1,
       y: 70,
       skewY: 10,
