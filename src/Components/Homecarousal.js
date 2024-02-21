@@ -19,7 +19,7 @@ function Homecarousal() {
 
       <div className="container-fluid overflow-hidden text-center vh-60" style={divstyle}>
         <div className="row gx-5 d-flex align-items-center justify-content-center">
-          <div className="col">
+          <div className="col-md-6">
             <div className="p-3" style={divstyle}>
               <h1 style={{ color: '#20b38e' }}>Welcome to VENOM's website</h1>
               <p>
@@ -31,11 +31,13 @@ function Homecarousal() {
             </div>
           </div>
 
-          <div className="col">
+          <div className="col-md-6">
             <div className="p-3">
               <div
                 id="carouselExampleIndicators"
                 className="carousel slide"
+                data-bs-ride="carousel"
+                data-bs-interval="2000"
               >
                 <div className="carousel-indicators">
                   <button
