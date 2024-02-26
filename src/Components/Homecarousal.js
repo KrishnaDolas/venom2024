@@ -6,6 +6,7 @@ import XIcon from '@mui/icons-material/X';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
+import { GitHub, Gite } from '@mui/icons-material';
 
 
 
@@ -57,6 +58,8 @@ function HomeCarousel() {
             <a href='https://www.linkedin.com/in/krishna-dolas-a52081226?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app' target='_blank'><LinkedInIcon color="primary" sx={{ fontSize: 40 }}/>---</a>
             <a href='https://www.instagram.com/dev.ven0m?igsh=OGw3Y3JueWJzeHpi' target='_blank'><InstagramIcon color="primary" sx={{ fontSize: 40 }}/>---</a>
             <a href='https://api.whatsapp.com/send?phone=8421501905' target='_blank'><WhatsAppIcon color="primary" sx={{ fontSize: 40 }}/>---</a>
+            <a href='https://github.com/KrishnaDolas?tab=repositories' target='_blank'><GitHub color="primary" sx={{ fontSize: 40 }}/></a>
+
 
             </div>
           </div>
