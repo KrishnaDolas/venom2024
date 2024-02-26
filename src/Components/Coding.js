@@ -76,7 +76,7 @@ function Coding() {
             </div>
             <div class="col-md-4">
             <a href="https://github.com/KrishnaDolas?tab=repositories" target='_blank'><GitHub style={{ color: '#20b38e',fontSize: '5em' }}/></a>
-            <p>Click here to see the repositories on github</p>
+            <p style={divstyle}>Click here to see the repositories on github</p>
             </div>
             <div class="col-md-4">
             {/* Column */}

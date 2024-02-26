@@ -10,6 +10,7 @@ function Home() {
 
     const divstyle = {
         fontFamily: "'Montserrat', sans-serif",
+        color:'white'
       };
 
     const [happyClients, setHappyClients] = useState(0);
@@ -49,7 +50,7 @@ function Home() {
       </style>
       
             <div>
-                <Homecarousal />
+                <Homecarousal /><br/><br/><br/>
                 <div className="container-fluid overflow-hidden text-Left vh-60" style={divstyle}>
                     <div className="row gx-5 d-flex align-items-center justify-content-center">
                         <div className="col-lg-6">

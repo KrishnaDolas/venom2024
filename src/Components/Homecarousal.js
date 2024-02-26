@@ -1,114 +1,63 @@
 import React from 'react';
-import slide1 from '../Assets/slide-1.jpg';
-import slide2 from '../Assets/slide-2.jpg';
-import slide3 from '../Assets/slide-3.jpg';
+import { ReactTyped } from 'react-typed';
+import propic from '../Assets/venom1.png';
+import FacebookIcon from '@mui/icons-material/Facebook';
+import XIcon from '@mui/icons-material/X';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import InstagramIcon from '@mui/icons-material/Instagram';
+import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 
-function Homecarousal() {
+
+
+function HomeCarousel() {
+
   const divstyle = {
     fontFamily: "'Montserrat', sans-serif",
+    color: "white",
+    marginTop: "100px",
+    fontSize: "30px",
+    fontWeight: "bold",
   };
+
+  
 
   return (
     <>
-    <style>
+      <style>
         {`
           @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
           /* Additional styles go here */
         `}
       </style>
 
-      <div className="container-fluid overflow-hidden text-center vh-60" style={divstyle}>
-        <div className="row gx-5 d-flex align-items-center justify-content-center">
-          <div className="col-md-6">
-            <div className="p-3" style={divstyle}>
-              <h1 style={{ color: '#20b38e' }}>Welcome to VENOM's website</h1>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipiscing elit risus
-                fusce, laoreet sodales ante hendrerit dignissim primis mus
-                fringilla ac, et ridiculus sapien per torquent rhoncus habitant
-                nulla.
-              </p>
+      <div class="container text-center">
+        <div class="row">
+          <div class="col text-center" style={divstyle}>
+            <h1>Hello !</h1>
+            <h1>I AM KRISHNA DOLAS</h1>
+            <div>
+              <h1>
+                I'm a{" "}
+                <ReactTyped
+                  strings={["WEB DEVELOPER","S/W Developer", "Designer", "Wordpress Developer", "Writer"]}
+                  typeSpeed={10}
+                  loop
+                  backSpeed={10}
+                  cursorChar="🕷"
+                  showCursor={true}
+                />
+              </h1>
             </div>
           </div>
+          <div class="col">
+            <img src={propic} className="rounded-5" alt='venomspic' />
+            <div className='container'>
+            <a href='https://www.facebook.com/krishna.dolas.7?mibextid=ZbWKwL' target='_blank'><FacebookIcon color="primary" sx={{ fontSize: 40 }}/>---</a>
+            <a href='https://x.com/VENOM19215061?t=CWHrrF0RrUvaUxVrVL3nSw&s=09' target='_blank'><XIcon color="primary" sx={{ fontSize: 40 }}/>---</a>
+            <a href='https://www.linkedin.com/in/krishna-dolas-a52081226?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app' target='_blank'><LinkedInIcon color="primary" sx={{ fontSize: 40 }}/>---</a>
+            <a href='https://www.instagram.com/dev.ven0m?igsh=OGw3Y3JueWJzeHpi' target='_blank'><InstagramIcon color="primary" sx={{ fontSize: 40 }}/>---</a>
+            <a href='https://api.whatsapp.com/send?phone=8421501905' target='_blank'><WhatsAppIcon color="primary" sx={{ fontSize: 40 }}/>---</a>
 
-          <div className="col-md-6">
-            <div className="p-3">
-              <div
-                id="carouselExampleIndicators"
-                className="carousel slide"
-                data-bs-ride="carousel"
-                data-bs-interval="2000"
-              >
-                <div className="carousel-indicators">
-                  <button
-                    type="button"
-                    data-bs-target="#carouselExampleIndicators"
-                    data-bs-slide-to="0"
-                    className="active"
-                    aria-current="true"
-                    aria-label="Slide 1"
-                  ></button>
-                  <button
-                    type="button"
-                    data-bs-target="#carouselExampleIndicators"
-                    data-bs-slide-to="1"
-                    aria-label="Slide 2"
-                  ></button>
-                  <button
-                    type="button"
-                    data-bs-target="#carouselExampleIndicators"
-                    data-bs-slide-to="2"
-                    aria-label="Slide 3"
-                  ></button>
-                </div>
-                <div className="carousel-inner" style={divstyle}>
-                  <div className="carousel-item active">
-                    <img
-                      src={slide1}
-                      className="d-block w-100"
-                      alt="..."
-                    />
-                  </div>
-                  <div className="carousel-item">
-                    <img
-                      src={slide2}
-                      className="d-block w-100"
-                      alt="..."
-                    />
-                  </div>
-                  <div className="carousel-item">
-                    <img
-                      src={slide3}
-                      className="d-block w-100"
-                      alt="..."
-                    />
-                  </div>
-                </div>
-                <button
-                  className="carousel-control-prev"
-                  type="button"
-                  data-bs-target="#carouselExampleIndicators"
-                  data-bs-slide="prev"
-                >
-                  <span
-                    className="carousel-control-prev-icon"
-                    aria-hidden="true"
-                  ></span>
-                  <span className="visually-hidden">Previous</span>
-                </button>
-                <button
-                  className="carousel-control-next"
-                  type="button"
-                  data-bs-target="#carouselExampleIndicators"
-                  data-bs-slide="next"
-                >
-                  <span
-                    className="carousel-control-next-icon"
-                    aria-hidden="true"
-                  ></span>
-                  <span className="visually-hidden">Next</span>
-                </button>
-              </div>
             </div>
           </div>
         </div>
@@ -117,4 +66,4 @@ function Homecarousal() {
   );
 }
 
-export default Homecarousal;
+export default HomeCarousel;
