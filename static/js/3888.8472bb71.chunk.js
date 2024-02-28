@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkvenomwebsite=self.webpackChunkvenomwebsite||[]).push([[3888],{1507:(e,n,s)=>{s.d(n,{LineDrawer:()=>t});class t{async draw(e){const{drawLine:n}=await s.e(4598).then(s.bind(s,4598));n(e)}getSidesCount(){return 1}}}}]);
+//# sourceMappingURL=3888.8472bb71.chunk.js.map

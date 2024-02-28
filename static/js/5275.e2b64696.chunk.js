@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkvenomwebsite=self.webpackChunkvenomwebsite||[]).push([[5275],{5275:(e,t,s)=>{s.d(t,{drawSquare:()=>u});const n=Math.sqrt(2),c=2;function u(e){const{context:t,radius:s}=e,u=s/n,a=u*c;t.rect(-u,-u,a,a)}}}]);
+//# sourceMappingURL=5275.e2b64696.chunk.js.map
