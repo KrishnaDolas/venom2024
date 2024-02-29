@@ -4,6 +4,7 @@ import DashboardIcon from '@mui/icons-material/Dashboard';
 import CountUp from 'react-countup';
 import Homecarousal from './Homecarousal';
 import GitHub from '@mui/icons-material/GitHub';
+import Experience from './Experience';
 
 
 function Home() {
@@ -199,6 +200,8 @@ function Home() {
                     </section>
                         </div><br/><br/>
                     </div><br/><br/>
+
+                    <div><Experience/></div>
 
                     <div class="container text-center" style={divstyle}>
                     <div class="row">
