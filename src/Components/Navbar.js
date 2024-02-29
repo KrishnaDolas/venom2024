@@ -10,7 +10,8 @@ function Navbar() {
   return ( 
 <nav className="navbar navbar-expand-lg" style={{ backgroundColor: 'rgba(0, 0, 0, 0.5)', color: 'white !important', ...divstyle }}>
       <div className="container-fluid bg-transparent">
-        <a className="navbar-brand" style={{color:'white'}} href="#">VENOM</a>
+        {/* <a className="navbar-brand" style={{color:'white'}} to="">VENOM</a> */}
+        <Link className="navbar-brand" style={{color:'white'}} to="">VENOM</Link>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
