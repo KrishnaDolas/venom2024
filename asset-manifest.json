@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/venom2024/static/css/main.f15f6f8c.css",
-    "main.js": "/venom2024/static/js/main.fdb59269.js",
+    "main.css": "/venom2024/static/css/main.b8a52c97.css",
+    "main.js": "/venom2024/static/js/main.070cee8a.js",
     "static/js/4603.1b4382b6.chunk.js": "/venom2024/static/js/4603.1b4382b6.chunk.js",
     "static/js/7590.9d26d5b3.chunk.js": "/venom2024/static/js/7590.9d26d5b3.chunk.js",
     "static/js/6725.db27fa19.chunk.js": "/venom2024/static/js/6725.db27fa19.chunk.js",
@@ -96,7 +96,6 @@
     "static/media/oldwebsite.png": "/venom2024/static/media/oldwebsite.8b59b5b091f39430eee1.png",
     "static/media/Lightbulb.png": "/venom2024/static/media/Lightbulb.2b2eb74fcc68df1b53aa.png",
     "static/media/music app.png": "/venom2024/static/media/music app.1efaca314dec91e4e939.png",
-    "static/media/venom1.png": "/venom2024/static/media/venom1.09c7fb01337388872568.png",
     "static/media/jayakhanna.com.jpg": "/venom2024/static/media/jayakhanna.com.cee5bc451447b75937bd.jpg",
     "static/media/rajmudratransport.jpg": "/venom2024/static/media/rajmudratransport.68fcc605d4117239db9f.jpg",
     "static/media/mystiiquereading.com.jpg": "/venom2024/static/media/mystiiquereading.com.7c82a1fc36b0890d28d5.jpg",
@@ -105,14 +104,15 @@
     "static/media/Punebizz.png": "/venom2024/static/media/Punebizz.17785a21afab90f1f375.png",
     "static/media/Agrovenom.png": "/venom2024/static/media/Agrovenom.a6697e8b0c47cdb01718.png",
     "static/media/todoapp.png": "/venom2024/static/media/todoapp.7ded647433ab70063212.png",
+    "static/media/123-removebg-preview.png": "/venom2024/static/media/123-removebg-preview.d890420d0b0c864a059f.png",
     "static/media/smtp form.png": "/venom2024/static/media/smtp form.a39726e98584c757a51d.png",
     "static/media/sevenseascj.com.jpg": "/venom2024/static/media/sevenseascj.com.6980b8068ee7ebda1e68.jpg",
     "static/media/kpproduction.in.jpg": "/venom2024/static/media/kpproduction.in.5e1baed8cac08b126a85.jpg",
     "static/media/Emcee Manoj.com.jpg": "/venom2024/static/media/Emcee Manoj.com.0fc294cee1c097cd8d73.jpg",
     "static/media/venomlogo.jpg": "/venom2024/static/media/venomlogo.4f381dc2c27fe09800bb.jpg",
     "index.html": "/venom2024/index.html",
-    "main.f15f6f8c.css.map": "/venom2024/static/css/main.f15f6f8c.css.map",
-    "main.fdb59269.js.map": "/venom2024/static/js/main.fdb59269.js.map",
+    "main.b8a52c97.css.map": "/venom2024/static/css/main.b8a52c97.css.map",
+    "main.070cee8a.js.map": "/venom2024/static/js/main.070cee8a.js.map",
     "4603.1b4382b6.chunk.js.map": "/venom2024/static/js/4603.1b4382b6.chunk.js.map",
     "7590.9d26d5b3.chunk.js.map": "/venom2024/static/js/7590.9d26d5b3.chunk.js.map",
     "6725.db27fa19.chunk.js.map": "/venom2024/static/js/6725.db27fa19.chunk.js.map",
@@ -204,7 +204,7 @@
     "6221.74a31dcc.chunk.js.map": "/venom2024/static/js/6221.74a31dcc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f15f6f8c.css",
-    "static/js/main.fdb59269.js"
+    "static/css/main.b8a52c97.css",
+    "static/js/main.070cee8a.js"
   ]
 }
