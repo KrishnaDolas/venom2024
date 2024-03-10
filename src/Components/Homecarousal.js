@@ -7,6 +7,7 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import { GitHub, Gite } from '@mui/icons-material';
+import Button51 from './Button51';
 
 
 
@@ -49,6 +50,7 @@ function HomeCarousel() {
                 />
               </h1>
             </div>
+            <a href='https://drive.google.com/file/d/1YIIZqpHAZI9Pj0KdR-yqpOyMRyvImYDX/view?usp=sharing' target='_blank'><Button51/></a>
           </div>
           <div class="col">
             <img src={propic} className="rounded-5" alt='venomspic' />

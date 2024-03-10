@@ -5,7 +5,7 @@
   line-height: 78px;
   font-size: 20px;
   font-family: 'Bebas Neue', sans-serif;
-  background: linear-gradient(45deg, transparent 5%, #FF013C 5%);
+  background: linear-gradient(45deg, transparent 5%, #20b38e 5%);
   border: 0;
   color: #fff;
   letter-spacing: 3px;
@@ -32,7 +32,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(45deg, transparent 3%, #00E6F6 3%, #00E6F6 5%, #FF013C 5%);
+  background: linear-gradient(45deg, transparent 3%, #00E6F6 3%, #00E6F6 5%, #20b38e 5%);
   text-shadow: -3px -3px 0px #F8F005, 3px 3px 0px #00E6F6;
   clip-path: var(--slice-0);
 }
@@ -111,6 +111,6 @@
   user-select: none;
   font-size: 20px;
   text-shadow: -3px -3px 0px #F8F005, 3px 3px 0px #00E6F6;
-  background: linear-gradient(45deg, transparent 3%, #00E6F6 3%, #00E6F6 5%, #FF013C 5%);
+  background: linear-gradient(45deg, transparent 3%, #00E6F6 3%, #00E6F6 5%, #20b38e 5%);
   clip-path: var(--slice-0);
 }
