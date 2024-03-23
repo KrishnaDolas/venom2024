@@ -32,7 +32,10 @@ function App() {
           <Router>
             <Navbar />
             <Routes>
+              <Route path="/venom2024" element={<Home />} />
               <Route path="/" element={<Home />} />
+              <Route path="" element={<Home />} />
+
               <Route path="/projects" element={<Projects />} />
               <Route path="/wordpress" element={<Wordpress />} />
               <Route path="/coding" element={<Coding />} />
