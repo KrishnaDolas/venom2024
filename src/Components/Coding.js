@@ -8,6 +8,8 @@ import img7 from '../Assets/oldwebsite.png';
 import img8 from '../Assets/smtp form.png';
 import img9 from '../Assets/todoapp.png';
 import img10 from '../Assets/Calculator.png';
+import img11 from '../Assets/beach resort.png'
+import img12 from '../Assets/facebook clone.png'
 import GitHub from '@mui/icons-material/GitHub';
 import KeyboardDoubleArrowLeftIcon from '@mui/icons-material/KeyboardDoubleArrowLeft';
 import { useNavigate } from 'react-router-dom';
@@ -118,13 +120,13 @@ function Coding() {
                 <div class="container text-center">
                 <div class="row">
                     <div class="col">
-                    {/* empty */}
+                    <a href="https://krishnadolas.github.io/ReactBeachResort/" target='_blank'><img src={img11} alt="Seven sea's" height={300} width={300} className='rounded mx-auto d-block'/></a>
                     </div>
                     <div class="col">
                     <a href="https://krishnadolas.github.io/calculator.io/" target='_blank'><img src={img10} alt="Seven sea's" height={300} width={300} className='rounded mx-auto d-block'/></a>
                     </div>
                     <div class="col">
-                    {/* empty */}
+                    <a href="https://krishnadolas.github.io/fbclone/" target='_blank'><img src={img12} alt="Seven sea's" height={300} width={300} className='rounded mx-auto d-block'/></a>
                     </div>
                 </div>
                 </div>
