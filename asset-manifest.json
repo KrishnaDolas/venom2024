@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/venom2024/static/css/main.b8a52c97.css",
-    "main.js": "/venom2024/static/js/main.070cee8a.js",
+    "main.css": "/venom2024/static/css/main.7a71ace4.css",
+    "main.js": "/venom2024/static/js/main.e1750b93.js",
     "static/js/4603.1b4382b6.chunk.js": "/venom2024/static/js/4603.1b4382b6.chunk.js",
     "static/js/7590.9d26d5b3.chunk.js": "/venom2024/static/js/7590.9d26d5b3.chunk.js",
     "static/js/6725.db27fa19.chunk.js": "/venom2024/static/js/6725.db27fa19.chunk.js",
@@ -91,11 +91,13 @@
     "static/js/683.a9f4d86f.chunk.js": "/venom2024/static/js/683.a9f4d86f.chunk.js",
     "static/js/1313.de040ca8.chunk.js": "/venom2024/static/js/1313.de040ca8.chunk.js",
     "static/js/6221.74a31dcc.chunk.js": "/venom2024/static/js/6221.74a31dcc.chunk.js",
+    "static/media/beach resort.png": "/venom2024/static/media/beach resort.52979ba42b4120b4f1e5.png",
     "static/media/covervenom.png": "/venom2024/static/media/covervenom.9fd553a0f6893c11f12b.png",
     "static/media/Wetherforcast app.png": "/venom2024/static/media/Wetherforcast app.cdb35c475720b1b94a43.png",
     "static/media/oldwebsite.png": "/venom2024/static/media/oldwebsite.8b59b5b091f39430eee1.png",
     "static/media/Lightbulb.png": "/venom2024/static/media/Lightbulb.2b2eb74fcc68df1b53aa.png",
     "static/media/music app.png": "/venom2024/static/media/music app.1efaca314dec91e4e939.png",
+    "static/media/facebook clone.png": "/venom2024/static/media/facebook clone.4c77a3c9f3c828025d89.png",
     "static/media/jayakhanna.com.jpg": "/venom2024/static/media/jayakhanna.com.cee5bc451447b75937bd.jpg",
     "static/media/rajmudratransport.jpg": "/venom2024/static/media/rajmudratransport.68fcc605d4117239db9f.jpg",
     "static/media/mystiiquereading.com.jpg": "/venom2024/static/media/mystiiquereading.com.7c82a1fc36b0890d28d5.jpg",
@@ -111,8 +113,8 @@
     "static/media/Emcee Manoj.com.jpg": "/venom2024/static/media/Emcee Manoj.com.0fc294cee1c097cd8d73.jpg",
     "static/media/venomlogo.jpg": "/venom2024/static/media/venomlogo.4f381dc2c27fe09800bb.jpg",
     "index.html": "/venom2024/index.html",
-    "main.b8a52c97.css.map": "/venom2024/static/css/main.b8a52c97.css.map",
-    "main.070cee8a.js.map": "/venom2024/static/js/main.070cee8a.js.map",
+    "main.7a71ace4.css.map": "/venom2024/static/css/main.7a71ace4.css.map",
+    "main.e1750b93.js.map": "/venom2024/static/js/main.e1750b93.js.map",
     "4603.1b4382b6.chunk.js.map": "/venom2024/static/js/4603.1b4382b6.chunk.js.map",
     "7590.9d26d5b3.chunk.js.map": "/venom2024/static/js/7590.9d26d5b3.chunk.js.map",
     "6725.db27fa19.chunk.js.map": "/venom2024/static/js/6725.db27fa19.chunk.js.map",
@@ -204,7 +206,7 @@
     "6221.74a31dcc.chunk.js.map": "/venom2024/static/js/6221.74a31dcc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b8a52c97.css",
-    "static/js/main.070cee8a.js"
+    "static/css/main.7a71ace4.css",
+    "static/js/main.e1750b93.js"
   ]
 }
