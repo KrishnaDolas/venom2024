@@ -5,9 +5,15 @@ import CountUp from 'react-countup';
 import Homecarousal from './Homecarousal';
 import GitHub from '@mui/icons-material/GitHub';
 import Experience from './Experience';
+import batarbatarapp from '../Assets/batar batar app.png';
 
 
 function Home() {
+
+    const imgstyle={
+        width: "100%",
+        paddingBottom: "20px"
+    }
 
     const divstyle = {
         fontFamily: "'Montserrat', sans-serif",
@@ -55,7 +61,9 @@ function Home() {
                 <div className="container-fluid overflow-hidden text-Left vh-60" style={divstyle}>
                     <div className="row gx-5 d-flex align-items-center justify-content-center">
                         <div className="col-lg-6">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/AmHEfTSBXiY?si=xGvQqfymWuO-zs9t" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <h1 className='text-center' style={{ color: '#20b38e' }}>Chat Application ✨</h1>
+                        <a href="https://batar-batar-app.vercel.app/" target='_blank'><img style={imgstyle} src={batarbatarapp}/></a>
+                        <p className='text-center'>First ever chat app created using node.js and socket.io do check out ! open the same link in 2 tabs and message from both side then see the magic ! click the image to open the app !</p>
                         </div>
                         <div className="col-lg-6">
                             <h1 style={{ color: '#20b38e' }}>Design epic websites</h1>
