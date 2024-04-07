@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/venom2024/static/css/main.7a71ace4.css",
-    "main.js": "/venom2024/static/js/main.e1750b93.js",
+    "main.js": "/venom2024/static/js/main.ff339e28.js",
     "static/js/4603.1b4382b6.chunk.js": "/venom2024/static/js/4603.1b4382b6.chunk.js",
     "static/js/7590.9d26d5b3.chunk.js": "/venom2024/static/js/7590.9d26d5b3.chunk.js",
     "static/js/6725.db27fa19.chunk.js": "/venom2024/static/js/6725.db27fa19.chunk.js",
@@ -103,6 +103,7 @@
     "static/media/mystiiquereading.com.jpg": "/venom2024/static/media/mystiiquereading.com.7c82a1fc36b0890d28d5.jpg",
     "static/media/Calculator.png": "/venom2024/static/media/Calculator.56a3f85f15a877b25d45.png",
     "static/media/TweetX.png": "/venom2024/static/media/TweetX.e8c1d0b40304d336b69e.png",
+    "static/media/batar batar app.png": "/venom2024/static/media/batar batar app.34589cbd43704abece7d.png",
     "static/media/Punebizz.png": "/venom2024/static/media/Punebizz.17785a21afab90f1f375.png",
     "static/media/Agrovenom.png": "/venom2024/static/media/Agrovenom.a6697e8b0c47cdb01718.png",
     "static/media/todoapp.png": "/venom2024/static/media/todoapp.7ded647433ab70063212.png",
@@ -114,7 +115,7 @@
     "static/media/venomlogo.jpg": "/venom2024/static/media/venomlogo.4f381dc2c27fe09800bb.jpg",
     "index.html": "/venom2024/index.html",
     "main.7a71ace4.css.map": "/venom2024/static/css/main.7a71ace4.css.map",
-    "main.e1750b93.js.map": "/venom2024/static/js/main.e1750b93.js.map",
+    "main.ff339e28.js.map": "/venom2024/static/js/main.ff339e28.js.map",
     "4603.1b4382b6.chunk.js.map": "/venom2024/static/js/4603.1b4382b6.chunk.js.map",
     "7590.9d26d5b3.chunk.js.map": "/venom2024/static/js/7590.9d26d5b3.chunk.js.map",
     "6725.db27fa19.chunk.js.map": "/venom2024/static/js/6725.db27fa19.chunk.js.map",
@@ -207,6 +208,6 @@
   },
   "entrypoints": [
     "static/css/main.7a71ace4.css",
-    "static/js/main.e1750b93.js"
+    "static/js/main.ff339e28.js"
   ]
 }
