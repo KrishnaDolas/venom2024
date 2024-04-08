@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/venom2024/static/css/main.7a71ace4.css",
-    "main.js": "/venom2024/static/js/main.ff339e28.js",
+    "main.js": "/venom2024/static/js/main.7948462c.js",
     "static/js/4603.1b4382b6.chunk.js": "/venom2024/static/js/4603.1b4382b6.chunk.js",
     "static/js/7590.9d26d5b3.chunk.js": "/venom2024/static/js/7590.9d26d5b3.chunk.js",
     "static/js/6725.db27fa19.chunk.js": "/venom2024/static/js/6725.db27fa19.chunk.js",
@@ -98,6 +98,7 @@
     "static/media/Lightbulb.png": "/venom2024/static/media/Lightbulb.2b2eb74fcc68df1b53aa.png",
     "static/media/music app.png": "/venom2024/static/media/music app.1efaca314dec91e4e939.png",
     "static/media/facebook clone.png": "/venom2024/static/media/facebook clone.4c77a3c9f3c828025d89.png",
+    "static/media/Registration form.png": "/venom2024/static/media/Registration form.12b9373d0f85ef46f3be.png",
     "static/media/jayakhanna.com.jpg": "/venom2024/static/media/jayakhanna.com.cee5bc451447b75937bd.jpg",
     "static/media/rajmudratransport.jpg": "/venom2024/static/media/rajmudratransport.68fcc605d4117239db9f.jpg",
     "static/media/mystiiquereading.com.jpg": "/venom2024/static/media/mystiiquereading.com.7c82a1fc36b0890d28d5.jpg",
@@ -115,7 +116,7 @@
     "static/media/venomlogo.jpg": "/venom2024/static/media/venomlogo.4f381dc2c27fe09800bb.jpg",
     "index.html": "/venom2024/index.html",
     "main.7a71ace4.css.map": "/venom2024/static/css/main.7a71ace4.css.map",
-    "main.ff339e28.js.map": "/venom2024/static/js/main.ff339e28.js.map",
+    "main.7948462c.js.map": "/venom2024/static/js/main.7948462c.js.map",
     "4603.1b4382b6.chunk.js.map": "/venom2024/static/js/4603.1b4382b6.chunk.js.map",
     "7590.9d26d5b3.chunk.js.map": "/venom2024/static/js/7590.9d26d5b3.chunk.js.map",
     "6725.db27fa19.chunk.js.map": "/venom2024/static/js/6725.db27fa19.chunk.js.map",
@@ -208,6 +209,6 @@
   },
   "entrypoints": [
     "static/css/main.7a71ace4.css",
-    "static/js/main.ff339e28.js"
+    "static/js/main.7948462c.js"
   ]
 }
