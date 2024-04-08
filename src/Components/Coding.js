@@ -8,8 +8,10 @@ import img7 from '../Assets/oldwebsite.png';
 import img8 from '../Assets/smtp form.png';
 import img9 from '../Assets/todoapp.png';
 import img10 from '../Assets/Calculator.png';
-import img11 from '../Assets/beach resort.png'
-import img12 from '../Assets/facebook clone.png'
+import img11 from '../Assets/beach resort.png';
+import img12 from '../Assets/facebook clone.png';
+import img13 from '../Assets/Registration form.png';
+import img14 from '../Assets/batar batar app.png';
 import GitHub from '@mui/icons-material/GitHub';
 import KeyboardDoubleArrowLeftIcon from '@mui/icons-material/KeyboardDoubleArrowLeft';
 import { useNavigate } from 'react-router-dom';
@@ -20,6 +22,12 @@ import React, { useState, useEffect } from 'react';
 
 
 function Coding() {
+
+    const imgstyle={
+        width: "100%",
+        paddingBottom: "20px"
+    }
+
 
     const divstyle = {
         fontFamily: "'Montserrat', sans-serif",
@@ -120,13 +128,27 @@ function Coding() {
                 <div class="container text-center">
                 <div class="row">
                     <div class="col">
-                    <a href="https://krishnadolas.github.io/ReactBeachResort/" target='_blank'><img src={img11} alt="Seven sea's" height={300} width={300} className='rounded mx-auto d-block'/></a>
+                    <a href="https://krishnadolas.github.io/ReactBeachResort/" target='_blank'><img src={img11} alt="Seven sea's" height={300} width={300} className='rounded mx-auto d-block'/></a><br/><br/><br/>
                     </div>
                     <div class="col">
-                    <a href="https://krishnadolas.github.io/calculator.io/" target='_blank'><img src={img10} alt="Seven sea's" height={300} width={300} className='rounded mx-auto d-block'/></a>
+                    <a href="https://krishnadolas.github.io/calculator.io/" target='_blank'><img src={img10} alt="Seven sea's" height={300} width={300} className='rounded mx-auto d-block'/></a><br/><br/><br/>
                     </div>
                     <div class="col">
-                    <a href="https://krishnadolas.github.io/fbclone/" target='_blank'><img src={img12} alt="Seven sea's" height={300} width={300} className='rounded mx-auto d-block'/></a>
+                    <a href="https://krishnadolas.github.io/fbclone/" target='_blank'><img src={img12} alt="Seven sea's" height={300} width={300} className='rounded mx-auto d-block'/></a><br/><br/><br/>
+                    </div>
+                </div>
+                </div>
+
+                <div class="container text-center">
+                <div class="row">
+                    <div class="col">
+                    <a href="https://batar-batar-app.vercel.app/" target='_blank'><img className='rounded mx-auto d-block' height={300} width={300} style={imgstyle} src={img14}/></a>
+                    </div>
+                    <div class="col">
+                        {/* empty */}
+                    </div>
+                    <div class="col">
+                    <a href="https://registration-using-mern.onrender.com/"  target='_blank'><img className='rounded mx-auto d-block' height={300} width={300} style={imgstyle} src={img13}/></a>
                     </div>
                 </div>
                 </div>
