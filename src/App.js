@@ -9,6 +9,7 @@ import Coding from './Components/Coding';
 import Preloader from './Components/Preloader';
 import ParticlesComponent from './Components/Particalsbackground';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Skills from './Components/Skills';
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -36,6 +37,7 @@ function App() {
               <Route path="/" element={<Home />} />
               <Route path="" element={<Home />} />
 
+              <Route path="/Skills" element={<Skills />} />
               <Route path="/projects" element={<Projects />} />
               <Route path="/wordpress" element={<Wordpress />} />
               <Route path="/coding" element={<Coding />} />

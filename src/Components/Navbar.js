@@ -21,6 +21,9 @@ function Navbar() {
               <Link className="nav-link active" style={{color:'white'}} to="">Home</Link>
             </li>
             <li className="nav-item">
+              <Link className="nav-link active" style={{color:'white'}} to="/Skills">Skills</Link>
+            </li>
+            <li className="nav-item">
               <Link className="nav-link active" style={{color:'white'}} to="/projects">Projects</Link>
             </li>
           </ul>
