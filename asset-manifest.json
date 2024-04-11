@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/venom2024/static/css/main.7a71ace4.css",
-    "main.js": "/venom2024/static/js/main.bb85c1a8.js",
+    "main.js": "/venom2024/static/js/main.a3c09c9e.js",
     "static/js/4603.1b4382b6.chunk.js": "/venom2024/static/js/4603.1b4382b6.chunk.js",
     "static/js/7590.9d26d5b3.chunk.js": "/venom2024/static/js/7590.9d26d5b3.chunk.js",
     "static/js/6725.db27fa19.chunk.js": "/venom2024/static/js/6725.db27fa19.chunk.js",
@@ -113,10 +113,21 @@
     "static/media/sevenseascj.com.jpg": "/venom2024/static/media/sevenseascj.com.6980b8068ee7ebda1e68.jpg",
     "static/media/kpproduction.in.jpg": "/venom2024/static/media/kpproduction.in.5e1baed8cac08b126a85.jpg",
     "static/media/Emcee Manoj.com.jpg": "/venom2024/static/media/Emcee Manoj.com.0fc294cee1c097cd8d73.jpg",
+    "static/media/nodejs.png": "/venom2024/static/media/nodejs.bc4b43cd5f20ba305059.png",
     "static/media/venomlogo.jpg": "/venom2024/static/media/venomlogo.4f381dc2c27fe09800bb.jpg",
+    "static/media/react.png": "/venom2024/static/media/react.c5b0245f707d5ac80cac.png",
+    "static/media/js.png": "/venom2024/static/media/js.266bd9fb2663dcc057b4.png",
+    "static/media/css.webp": "/venom2024/static/media/css.dce4e8a2e17b6b7f5eea.webp",
+    "static/media/jquery.webp": "/venom2024/static/media/jquery.e18a02c8fbdcdf9d514b.webp",
+    "static/media/bootstrap.webp": "/venom2024/static/media/bootstrap.b47fc959be53495b30a8.webp",
+    "static/media/mongodb.webp": "/venom2024/static/media/mongodb.6d27da06b9eeda78ec44.webp",
+    "static/media/express.webp": "/venom2024/static/media/express.afd6549127f68047146a.webp",
+    "static/media/postman.webp": "/venom2024/static/media/postman.b4937ebc51ef9a2d3254.webp",
+    "static/media/vercel1868.webp": "/venom2024/static/media/vercel1868.ab13b1b2682c476a8dd4.webp",
     "index.html": "/venom2024/index.html",
+    "static/media/html.svg": "/venom2024/static/media/html.aff8a9cb398fc75e4f21dab1ba1e097e.svg",
     "main.7a71ace4.css.map": "/venom2024/static/css/main.7a71ace4.css.map",
-    "main.bb85c1a8.js.map": "/venom2024/static/js/main.bb85c1a8.js.map",
+    "main.a3c09c9e.js.map": "/venom2024/static/js/main.a3c09c9e.js.map",
     "4603.1b4382b6.chunk.js.map": "/venom2024/static/js/4603.1b4382b6.chunk.js.map",
     "7590.9d26d5b3.chunk.js.map": "/venom2024/static/js/7590.9d26d5b3.chunk.js.map",
     "6725.db27fa19.chunk.js.map": "/venom2024/static/js/6725.db27fa19.chunk.js.map",
@@ -209,6 +220,6 @@
   },
   "entrypoints": [
     "static/css/main.7a71ace4.css",
-    "static/js/main.bb85c1a8.js"
+    "static/js/main.a3c09c9e.js"
   ]
 }
