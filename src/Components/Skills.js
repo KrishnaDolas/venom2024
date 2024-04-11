@@ -49,20 +49,34 @@ function Skills() {
             <img src={bs} style={imgstyle} alt="..."></img>
         </div><br/><br/>
 
-        <div style={middle}>
-            <h1 style={{ color: '#20b38e' }} className="text-center">Frameworks & Technologies</h1>&nbsp;&nbsp;&nbsp;
-            <img src={react} style={imgstyle} alt="..."></img>
-            <img src={nodejs} style={imgstyle} alt="..."></img>&nbsp;&nbsp;&nbsp;
-            <img src={express} className="rounded"  style={imgstyle} alt="..."></img>&nbsp;&nbsp;&nbsp;
-            <img src={mongodb} className="rounded" style={imgstyle} alt="..."></img>&nbsp;&nbsp;&nbsp;
+        <div style={divstyle}>
+        <h1 style={{ color: '#20b38e' }} className="text-center">Frameworks & Technologies</h1>
         </div><br/><br/>
+        <div class="container text-center">
+        <div class="row">
+            <div class="col"><img src={react} className="rounded" style={imgstyle} alt="..."></img>&nbsp;&nbsp;&nbsp;</div>
+            <div class="col"><img src={nodejs} className="rounded" style={imgstyle} alt="..."></img>&nbsp;&nbsp;&nbsp;</div>
+            <div class="col"><img src={express} className="rounded" style={imgstyle} alt="..."></img>&nbsp;&nbsp;&nbsp;</div>
+            <div class="col"><img src={mongodb} className="rounded" style={imgstyle} alt="..."></img>&nbsp;&nbsp;&nbsp;</div>
+        </div>
+        </div>
 
-        <div style={middle}>
-            <h1 style={{ color: '#20b38e' }} className="text-center">Tools & Platforms</h1>&nbsp;&nbsp;&nbsp;
-            <img src={vercel} className="rounded" style={imgstyle} alt="..."></img>&nbsp;&nbsp;&nbsp;
-            <img src={postman} className="rounded" style={imgstyle} alt="..."></img>&nbsp;&nbsp;&nbsp;
-            <img src={GitHub} style={imgstyle} alt="..."></img>
+        <div style={divstyle}>
+        <h1 style={{ color: '#20b38e' }} className="text-center">Tools & Platforms</h1>
         </div><br/><br/>
+        <div class="container text-center">
+        <div class="row">
+            <div class="col">
+            <img src={vercel} className="rounded" style={imgstyle} alt="..."></img>&nbsp;&nbsp;&nbsp;
+            </div>
+            <div class="col">
+            <img src={postman} className="rounded" style={imgstyle} alt="..."></img>&nbsp;&nbsp;&nbsp;
+            </div>
+            <div class="col">
+            <img src={GitHub} className="rounded" style={imgstyle} alt="..."></img>&nbsp;&nbsp;&nbsp;
+            </div>
+        </div>
+        </div>
         </>
      );
 }
