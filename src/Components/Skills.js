@@ -73,7 +73,7 @@ function Skills() {
             <img src={postman} className="rounded" style={imgstyle} alt="..."></img>&nbsp;&nbsp;&nbsp;
             </div>
             <div class="col">
-            <img src={GitHub} className="rounded" style={imgstyle} alt="..."></img>&nbsp;&nbsp;&nbsp;
+            <img src={postman} className="rounded" style={imgstyle} alt="..."></img>&nbsp;&nbsp;&nbsp;
             </div>
         </div>
         </div>
