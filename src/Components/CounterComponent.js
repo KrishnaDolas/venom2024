@@ -1,21 +1,17 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
-const CounterComponent = () => {
-  const [count, setCount] = useState(0);
+function CounterComponent() {
+const [count, setCount] = useState(0);
 
-  useEffect(() => {
-    const fetchData = async () => {
-      try {
-        const response = await fetch('https://api.countapi.xyz/update/laptop/mouse/?amount=1');
-        const data = await response.json();
-        setCount(data.value);
-      } catch (error) {
-        console.error('Error fetching data:', error);
-      }
-    };
+useEffect(() => {
+const storedCount = localStorage.getItem("pageVisits");
+const initialCount = storedCount ? Number(storedCount) : 0;
+setCount(initialCount + 1);
+localStorage.setItem("pageVisits", initialCount + 1);
 
-    fetchData();
-  }, []);
+
+
+}, []);
 
   return (
     <div>
