@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/venom2024/static/css/main.7a71ace4.css",
-    "main.js": "/venom2024/static/js/main.a3c09c9e.js",
+    "main.js": "/venom2024/static/js/main.f7d0544b.js",
     "static/js/4603.1b4382b6.chunk.js": "/venom2024/static/js/4603.1b4382b6.chunk.js",
     "static/js/7590.9d26d5b3.chunk.js": "/venom2024/static/js/7590.9d26d5b3.chunk.js",
     "static/js/6725.db27fa19.chunk.js": "/venom2024/static/js/6725.db27fa19.chunk.js",
@@ -127,7 +127,7 @@
     "index.html": "/venom2024/index.html",
     "static/media/html.svg": "/venom2024/static/media/html.aff8a9cb398fc75e4f21dab1ba1e097e.svg",
     "main.7a71ace4.css.map": "/venom2024/static/css/main.7a71ace4.css.map",
-    "main.a3c09c9e.js.map": "/venom2024/static/js/main.a3c09c9e.js.map",
+    "main.f7d0544b.js.map": "/venom2024/static/js/main.f7d0544b.js.map",
     "4603.1b4382b6.chunk.js.map": "/venom2024/static/js/4603.1b4382b6.chunk.js.map",
     "7590.9d26d5b3.chunk.js.map": "/venom2024/static/js/7590.9d26d5b3.chunk.js.map",
     "6725.db27fa19.chunk.js.map": "/venom2024/static/js/6725.db27fa19.chunk.js.map",
@@ -220,6 +220,6 @@
   },
   "entrypoints": [
     "static/css/main.7a71ace4.css",
-    "static/js/main.a3c09c9e.js"
+    "static/js/main.f7d0544b.js"
   ]
 }
