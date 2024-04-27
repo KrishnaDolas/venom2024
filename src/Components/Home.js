@@ -6,6 +6,7 @@ import Homecarousal from './Homecarousal';
 import GitHub from '@mui/icons-material/GitHub';
 import Experience from './Experience';
 import batarbatarapp from '../Assets/batar batar app.png';
+import CounterComponent from './CounterComponent';
 
 
 function Home() {
@@ -220,7 +221,8 @@ function Home() {
                         <p>Core coding consists of a group of languages like HTML, CSS, JAVASCRIPT, JQUERY, BOOTSTRAP, and REACTJS all these languages are used to make a website more creative, effective, and faster and we can create, edit, and delete anything on the website.</p>
                         </div>
                         <div class="col-md-4">
-                        <GitHub style={{ color: '#20b38e',fontSize: '5em' }}/>
+                        <GitHub style={{ color: '#20b38e',fontSize: '5em' }}/><br/><br/><br/>
+                        <CounterComponent/>
                         </div>
                         <div class="col-md-4">
                         <DashboardIcon style={{ color: '#20b38e' }} />
