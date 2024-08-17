@@ -1,6 +1,6 @@
 import React from 'react';
 import { ReactTyped } from 'react-typed';
-import propic from '../Assets/123-removebg-preview.png';
+import propic from '../Assets/venom.png';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import XIcon from '@mui/icons-material/X';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
@@ -50,7 +50,7 @@ function HomeCarousel() {
                 />
               </h1>
             </div>
-            <a href='https://drive.google.com/file/d/1YIIZqpHAZI9Pj0KdR-yqpOyMRyvImYDX/view?usp=sharing' target='_blank'><Button51/></a>
+            <a href='https://drive.google.com/file/d/10tmY9ecosssF1VDqFc2CKfX9zoiEfLzE/view?usp=sharing' target='_blank'><Button51/></a>
           </div>
           <div class="col">
             <img src={propic} className="rounded-5" alt='venomspic' />

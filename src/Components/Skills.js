@@ -39,15 +39,15 @@ function Skills() {
         <p className="text-center">I love to learn new things and experiment with new technologies.
         These are some of the major languages, technologies, tools and platforms I have worked with:</p>
         </div><br/><br/>
-
-        <div>
+        <div class="container text-center">
+        <div class="row">
             <h1 style={{ color: '#20b38e' }} className="text-center">Coding Languages</h1>
             <img src={html} style={imgstyle} alt="..."></img>
             <img src={css} style={imgstyle} alt="..."></img>
             <img src={js} className="rounded" style={imgstyle} alt="..."></img>&nbsp;&nbsp;&nbsp;
             <img src={jquery} className="rounded" style={imgstyle} alt="..."></img>&nbsp;&nbsp;&nbsp;
             <img src={bs} style={imgstyle} alt="..."></img>
-        </div><br/><br/>
+        </div></div><br/><br/>
 
         <div style={divstyle}>
         <h1 style={{ color: '#20b38e' }} className="text-center">Frameworks & Technologies</h1>

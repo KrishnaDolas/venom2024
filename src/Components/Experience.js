@@ -19,10 +19,10 @@ import 'react-vertical-timeline-component/style.min.css';
       iconStyle={{ background: '#20b38e', color: '#fff' }}
       icon={<WorkHistoryIcon />}
     >
-      <h3 className="vertical-timeline-element-title">S/W Developer Intern</h3>
+      <h3 className="vertical-timeline-element-title">Software Engineer</h3>
       <h4 className="vertical-timeline-element-subtitle">Chords Technology,Pune Maharashtra India</h4>
       <p>
-        Working on React,Angular as a Front end developer.
+        Working on React,React Native as a Front end developer.
       </p>
     </VerticalTimelineElement>
     <VerticalTimelineElement style={divstyle}
